@@ -1,0 +1,60 @@
+.slider-container {
+    position: relative;
+    max-width: 100%;
+    overflow: hidden;
+  }
+  
+  .slider {
+    display: flex;
+  }
+  
+  .slide {
+    position:relative;
+    left: 240px;
+    flex: 0 0 100%;
+    transition: transform 0.5s ease;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .caption {
+    /* text-align: center; */
+    position: relative;
+    right: -120px;
+    margin-top: 10px;
+    font-style: italic;
+  }
+  
+  button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    z-index: 1;
+  }
+  
+  .prev {
+    position:relative;
+    top: 20px; 
+    right:-120px ;
+  }
+  
+  .next {
+    position:relative;
+    top: 20px; 
+    right: -490px;
+  }
+  
+  .playPause {
+    position:relative;
+    top: 20px; 
+    left: 200px;
+  }
+  

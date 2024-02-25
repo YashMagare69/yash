@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Image Slider</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body bgcolor="lightblue">
+<div style="display: grid;align-content: end;">
+<div class="slider-container">
+  <div class="slider">
+    <div class="slide">
+      <img src="images1.jpg" alt="Image 1">
+      <div class="caption">Image1</div>
+    </div>
+    <div class="slide">
+      <img src="images2.jpg" alt="Image 2">
+      <div class="caption">Image2</div>
+    </div>
+    <div class="slide">
+      <img src="images3.jpg" alt="Image 3">
+      <div class="caption">Image3</div>
+    </div>
+    <div class="slide">
+      <img src="images4.jpg" alt="Image 4">
+      <div class="caption">Image4</div>
+    </div>
+    <div class="slide">
+    <img src="images5.jpg" alt="Image 5">
+      <div class="caption">Image5</div></div>
+    <!-- Add more slides as needed -->
+  </div>
+  <button   class="prev" onclick="plusSlides(-1)">❮previous</button>
+  <button class="next" onclick="plusSlides(1)">next❯</button>
+  <button class="playPause" onclick="toggleAuto()">Play/Pause</button>
+</div>
+</div>
+<script src="ind.js"></script>
+</body>
+</html>
+
+
